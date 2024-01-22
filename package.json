@@ -1,0 +1,23 @@
+{
+    "name": "google-wallet-plugin",
+    "version": "0.0.1",
+    "description": "todo",
+    "cordova": {
+      "id": "google-wallet-plugin",
+      "platforms": [
+        "android"
+      ]
+    },
+    "keywords": [
+      "ecosystem:cordova",
+      "cordova-android"
+    ],
+    "engines": [
+        {
+        "name": "cordova",
+        "version": ">=3.0.0"
+      }
+    ],
+    "author": "todo",
+    "license": "MIT"
+  }
