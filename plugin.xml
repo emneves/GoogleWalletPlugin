@@ -4,7 +4,7 @@
 	xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>GoogleWalletPlugin</name>
 	<js-module name="GoogleWallet" src="www/google-wallet-plugin.js">
-		<clobbers target="google.wallet.plugin" />
+		<clobbers target="window.plugins.googleWalletPlugin" />
 	</js-module>
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
